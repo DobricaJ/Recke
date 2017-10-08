@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Recke</string>
+    <string name="pocni">Počni igru</string>
+    <string name="timA">Unesi ime 1</string>
+    <string name="timB">Unesi ime 2</string>
+    <string name="backClick">Napusti igru?</string>
+    <string name="da">Da</string>
+    <string name="ne">Ne</string>
+    <string name="title_activity_info_tabbed">InfoTabbedActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="history">Istorija</string>
+    <string name="use_app">Uputstvo</string>
+    <string name="rules">Pravila Tablića</string>
+    <string name="deleteall">Obriši sve</string>
+    <string name="empty">Prazno</string>
+    <string name="delete">Obriši?</string>
+</resources>

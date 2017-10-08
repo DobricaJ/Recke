@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dobrica.android.recke">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".viewActivity.MainActivity"
+            android:screenOrientation="sensorPortrait">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".viewActivity.NotesActivity"
+            android:screenOrientation="sensorPortrait"/>
+        <activity android:name=".viewActivity.InputNamesActivity"
+            android:screenOrientation="sensorPortrait"/>
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".viewActivity.ScoreActivity"
+            android:screenOrientation="sensorPortrait"/>
+        <activity
+            android:name=".viewActivity.InfoTabbedActivity"
+            android:screenOrientation="sensorPortrait"
+            android:label="@string/title_activity_info_tabbed"
+            android:parentActivityName=".viewActivity.MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.dobrica.android.recke.viewActivity.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Recke</string>
+    <string name="backClick" translatable="false">Exit game</string>
+    <string name="da" translatable="false">yes</string>
+    <string name="ne" translatable="false">continue</string>
+    <string name="pocni" translatable="false">Start game</string>
+    <string name="timA" translatable="false">Input name 1</string>
+    <string name="timB" translatable="false">Input name 2</string>
+    <string name="deleteall">Delete all</string>
+    <string name="empty">Empty</string>
+    <string name="history">History</string>
+    <string name="rules">Tablic rules</string>
+    <string name="use_app">Instruction</string>
+    <string name="delete">Delete?</string>
+</resources>
